@@ -1,0 +1,18 @@
+for n in sub-CC*
+
+do
+
+cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data
+ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/ >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/anatlist.txt
+
+cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data
+ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/epi_rest/${n}/ >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/epi_rest/epilist.txt 
+
+
+cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data
+ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/fmap_rest/${n}/ >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/fmap_rest/fmaplist.txt  
+
+done
+
+
+
