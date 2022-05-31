@@ -7,11 +7,3 @@ ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/rc1* >>/
 ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/rc2* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/rc2list.txt  
 
 done
-
-##cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data
-##ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/epi_rest/${n}/*_rest/ >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/epi_rest/epilist.txt 
-
-
-##cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data
-##ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/fmap_rest/${n}/*fmap/ >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/fmap_rest/fmaplist.txt
-
