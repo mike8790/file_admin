@@ -3,10 +3,7 @@ for n in sub-CC*
 do
 
 cd /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/
-ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/Template_6* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/template.txt 
+ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/c1s* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/c1list.txt 
+ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/c2s* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/c2list.txt 
 
 done
-
-#ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/c1s* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/c1list.txt 
-#ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/c2s* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/c2list.txt 
-#ls /MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/${n}/anat/u_rc1* >>/MRIWork/MRIWork06/nr/michael_longley/CanCAM/raw_data/anat/flowfield.txt 
