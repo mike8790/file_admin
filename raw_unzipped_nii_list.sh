@@ -1,3 +1,5 @@
+#!/bin/sh
+
 for n in sub-CC*
 
 do
